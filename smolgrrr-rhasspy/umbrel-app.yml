@@ -17,7 +17,7 @@ releaseNotes: >-
   First release
 developer: Michael Hansen, smolgrrr
 website: https://rhasspy.readthedocs.io/en/latest/
-dependencies:
+dependencies: []
 repo: https://github.com/rhasspy
 support: https://github.com/rhasspy/rhasspy/issues
 port: 12101
