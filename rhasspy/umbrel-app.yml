@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: rhasspy
+category: home assistant
+name: Rhasspy
+version: "2.5.0"
+tagline: Rhasspy is an open source, fully offline voice assistant 
+description: >-
+  Rhasspy is an open source, fully offline set of voice assistant services for many human languages that works well with:
+
+  Hermes protocol compatible services (Snips.AI)
+  Home Assistant and Hass.io
+  Node-RED
+  Jeedom
+  OpenHAB
+releaseNotes: >-
+  First release
+developer: Michael Hansen, smolgrrr
+website: https://rhasspy.readthedocs.io/en/latest/
+dependencies:
+  - node-red
+  - home-assistant
+repo: https://github.com/rhasspy
+support: https://github.com/rhasspy/rhasspy/issues
+port: 12101
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
