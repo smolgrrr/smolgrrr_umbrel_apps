@@ -1,8 +1,8 @@
-manifestVersion: 1.1
-id: rhasspy
+manifestVersion: 1
+id: smolgrrr-rhasspy
 category: Finance
 name: Rhasspy
-icon: https://raw.githubusercontent.com/deverickapollo/umbrel-monero/dev/ui/src/assets/community-monero-icon.png
+icon: https://static01.nyt.com/images/2018/05/15/arts/01hal-voice1/merlin_135847308_098289a6-90ee-461b-88e2-20920469f96a-superJumbo.jpg
 version: "2.5.0"
 tagline: Rhasspy is an open source, fully offline voice assistant 
 description: >-
@@ -13,18 +13,18 @@ description: >-
   Node-RED
   Jeedom
   OpenHAB
+releaseNotes: >-
+  First release
 developer: Michael Hansen, smolgrrr
 website: https://rhasspy.readthedocs.io/en/latest/
-dependencies: []
+dependencies:
 repo: https://github.com/rhasspy
 support: https://github.com/rhasspy/rhasspy/issues
 port: 12101
-submitter: smolgrrr
 gallery:
-  - https://raw.githubusercontent.com/deverickapollo/umbrel-monero/master/pictures/Monero%20Dashboard%20Menu.png
-  - https://raw.githubusercontent.com/deverickapollo/umbrel-monero/master/pictures/Connect%20Wallet.png
-  - https://raw.githubusercontent.com/deverickapollo/umbrel-monero/master/pictures/Advanced%20Settings.png
+  - https://rhasspy.readthedocs.io/en/latest/img/web-speech.png
+  - https://rhasspy.readthedocs.io/en/latest/img/services.png
 path: ""
+defaultUsername: ""
 defaultPassword: ""
-releaseNotes: >-
- Initial Release
+
