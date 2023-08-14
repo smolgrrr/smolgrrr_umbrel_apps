@@ -3,14 +3,14 @@ version: "3"
 services:
   bitcoin:
     container_name: bitcoin
-    image: ghcr.io/runcitadel/bitcoinknots:main@sha256:5fbee0f6f0d09d42aacc11c373ffe6162210c42ce21e6eba294e547e3ad80219
+    image: nolim1t/bitcoinknots:v0.21.1.knots20210629
     volumes:
       - ${PWD}/bitcoin:/data/.bitcoin
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - $BITCOIN_RPC_PORT:$BITCOIN_RPC_PORT
-      - $BITCOIN_P2P_PORT:$BITCOIN_P2P_PORT
+      - "8332:8332"
+      - "8333:8333"
     networks:
       default:
-        ipv4_address: $BITCOIN_IP
+        ipv4_address: "10.21.0.4"
