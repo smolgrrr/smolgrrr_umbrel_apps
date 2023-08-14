@@ -1,9 +1,9 @@
-version: "3.7"
+version: "3"
 
 services:
     bitcoin:
     container_name: bitcoin
-    image: nolim1t/bitcoinknots
+    image: ghcr.io/runcitadel/bitcoinknots:main@sha256:5fbee0f6f0d09d42aacc11c373ffe6162210c42ce21e6eba294e547e3ad80219
     depends_on:
     - tor
     volumes:
@@ -11,7 +11,7 @@ services:
     restart: on-failure
     stop_grace_period: 1m
     ports:
-    - 8332:8332
+    - 18443:18443
     networks:
         default:
         ipv4_address: "10.21.0.4"
