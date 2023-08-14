@@ -1,0 +1,16 @@
+version: "3.7"
+
+bitcoin:
+  container_name: bitcoin
+  image: lncm/bitcoind:v25.0@sha256:fad11d4874f1c2dc4373f6fea913bf95e0f0491f377b9a0930f488565e6266f0
+  depends_on:
+  - tor
+  volumes:
+  - ${PWD}/bitcoin:/data/.bitcoin
+  restart: on-failure
+  stop_grace_period: 1m
+  ports:
+  - 11111:11111
+  networks:
+    default:
+      ipv4_address:

@@ -1,0 +1,20 @@
+id: smolgrrr-bitcoin-knots
+name: Bitcoin Knots
+version: "v23.0"
+tagline: Bitcoin Knots enhanced Bitcoin node/wallet software
+description: >-
+releaseNotes: >-
+  First release
+developer: Luke Dash Jr
+website: https://bitcoinknots.org/
+dependencies: []
+repo: https://github.com/bitcoinknots/bitcoin
+support: https://github.com/bitcoinknots/bitcoin/issues
+port: 11111:11111
+gallery:
+  - https://rhasspy.readthedocs.io/en/latest/img/web-speech.png
+  - https://rhasspy.readthedocs.io/en/latest/img/services.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+
