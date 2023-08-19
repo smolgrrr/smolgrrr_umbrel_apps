@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-  rhasspy:
+  ethereum:
       image: "ethereum/client-go"
       container_name: ethereum-node
       restart: unless-stopped
@@ -10,6 +10,3 @@ services:
       ports:
           - "8545:8545"
           - "30303:30303"
-      devices:
-          - "/dev/snd:/dev/snd"
-      command: --user-profiles /profiles --profile en
