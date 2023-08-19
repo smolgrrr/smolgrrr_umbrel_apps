@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: smolgrrr-ethereum
+category: Node
+name: Ethereum Node
+icon: 
+version: 
+tagline: 
+description: >-
+
+releaseNotes: >-
+  First release
+developer: 
+website: 
+dependencies: []
+repo: 
+support: 
+port: 8545
+gallery:
+  - 
+  - 
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+
