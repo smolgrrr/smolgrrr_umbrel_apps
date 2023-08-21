@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: smolgrrr-ethereum
+category: Node
+name: Ethereum Node
+icon: https://static01.nyt.com/images/2018/05/15/arts/01hal-voice1/merlin_135847308_098289a6-90ee-461b-88e2-20920469f96a-superJumbo.jpg
+version: "1"
+tagline: Eth node
+description: >-
+  Eth node
+releaseNotes: >-
+  First release
+developer: DAPPnode
+website:  
+dependencies: []
+repo:  
+support:  
+port: 30403
+gallery:
+  - 
+  - 
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+
