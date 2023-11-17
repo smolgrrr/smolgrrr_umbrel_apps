@@ -12,4 +12,4 @@ services:
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - 7001:3000
+      - 7127:3000
