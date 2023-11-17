@@ -18,7 +18,7 @@ website: https://www.get-tao.app/
 dependencies: []
 repo: https://github.com/smolgrrr/TAO
 support: https://github.com/smolgrrr/TAO/issues
-port: 6969
+port: 7001
 gallery:
   - https://rhasspy.readthedocs.io/en/latest/img/web-speech.png
   - https://rhasspy.readthedocs.io/en/latest/img/services.png
