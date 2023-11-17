@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tao_1
+      APP_PORT: 3000
+
+  web:
+    image: smolgrrr/tao:v0.1.0@sha256:a52b8ae1ba482580d3530ae24f5a3fb2adb0b78af2afcab5adef9f5da3c85638
+    init: true
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - 6969:3000

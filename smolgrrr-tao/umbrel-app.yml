@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: smolgrrr-tao
+category: social
+name: TAO
+icon: https://www.get-tao.app/tao.png
+version: "0.1.0"
+tagline: Post to nostr anonymously with PoW
+description: >-
+  Rhasspy is an open source, fully offline set of voice assistant services for many human languages that works well with:
+
+  Hermes protocol compatible services (Snips.AI)
+  Home Assistant and Hass.io
+  Node-RED
+  Jeedom
+  OpenHAB
+developer: smolgrrr
+website: https://www.get-tao.app/
+dependencies: []
+repo: https://github.com/smolgrrr/TAO
+support: https://github.com/smolgrrr/TAO/issues
+port: 6969
+gallery:
+  - https://rhasspy.readthedocs.io/en/latest/img/web-speech.png
+  - https://rhasspy.readthedocs.io/en/latest/img/services.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+
