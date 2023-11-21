@@ -18,4 +18,4 @@ services:
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - 69420:8080
+      - 42070:8080
