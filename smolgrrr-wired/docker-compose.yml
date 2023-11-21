@@ -7,7 +7,7 @@ services:
       APP_PORT: 80
 
   web:
-    image: smolgrrr/tao:v0.1.1@sha256:b71e13aac74033788bac5f9151d0d55bbe0f92bc97f121761241ecea947164b3
+    image: smolgrrr/tao:v0.1.2@sha256:f162972008578f0198ce9a0e09732bc4c4d4cfadf4d0bf773f6d1710e82b4c9e
     restart: on-failure
     stop_grace_period: 1m
     ports:
