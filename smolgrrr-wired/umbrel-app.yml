@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: smolgrrr-wired
 category: social
-name: TAO
+name: Wired
 icon: https://www.getwired.app/icon.png
 version: "0.1.1"
 tagline: Post to nostr anonymously with PoW
