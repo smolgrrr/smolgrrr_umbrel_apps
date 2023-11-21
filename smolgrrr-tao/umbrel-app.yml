@@ -1,9 +1,9 @@
 manifestVersion: 1
-id: smolgrrr-tao
+id: smolgrrr-wired
 category: social
 name: TAO
-icon: https://www.get-tao.app/tao.png
-version: "0.1.0"
+icon: https://www.getwired.app/icon.png
+version: "0.1.1"
 tagline: Post to nostr anonymously with PoW
 description: >-
   Rhasspy is an open source, fully offline set of voice assistant services for many human languages that works well with:

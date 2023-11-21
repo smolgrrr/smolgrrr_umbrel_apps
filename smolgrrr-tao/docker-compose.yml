@@ -12,3 +12,10 @@ services:
     stop_grace_period: 1m
     ports:
       - 42069:80
+  
+  server:
+    image: smolgrrr/tao:v0.1.2@sha256:f162972008578f0198ce9a0e09732bc4c4d4cfadf4d0bf773f6d1710e82b4c9e
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - 69420:8080
