@@ -3,9 +3,9 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: smolgrrr-wired_server_1
-      APP_PORT: 42068
-      PROXY_AUTH_WHITELIST: "/*"
+      APP_HOST: smolgrrr-wired_web_1
+      APP_PORT: 42069
+      PROXY_AUTH_ADD: "false"
 
   web:
     image: smolgrrr/tao:v0.1.2@sha256:0fb03196accbd6af1a5a21a68d7a813a4393893ca33104fe4680ccce828a2b90
