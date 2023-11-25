@@ -3,16 +3,11 @@ id: smolgrrr-wired
 category: social
 name: Wired
 icon: https://www.getwired.app/icon.png
-version: "0.1.1"
+version: "0.1.2"
 tagline: Post to nostr anonymously with PoW
 description: >-
-  Rhasspy is an open source, fully offline set of voice assistant services for many human languages that works well with:
+  The Anonymous first Nostr Client
 
-  Hermes protocol compatible services (Snips.AI)
-  Home Assistant and Hass.io
-  Node-RED
-  Jeedom
-  OpenHAB
 developer: smolgrrr
 website: https://www.get-tao.app/
 dependencies: []
@@ -20,8 +15,9 @@ repo: https://github.com/smolgrrr/TAO
 support: https://github.com/smolgrrr/TAO/issues
 port: 42069
 gallery:
-  - https://rhasspy.readthedocs.io/en/latest/img/web-speech.png
-  - https://rhasspy.readthedocs.io/en/latest/img/services.png
+  - https://i.imgur.com/4tHfrR4.png
+  - https://i.imgur.com/niMQlU1.png
+  - https://i.imgur.com/Ve4S0zi.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
