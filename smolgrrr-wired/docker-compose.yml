@@ -8,7 +8,7 @@ services:
       PROXY_AUTH_ADD: "false"
 
   web:
-    image: smolgrrr/tao:v0.1.2@sha256:0fb03196accbd6af1a5a21a68d7a813a4393893ca33104fe4680ccce828a2b90
+    image: smolgrrr/tao:v0.1.2@sha256:3de27e272fb8105ad5de2932222c7c87d34b28746b34e6a939271ad66622d9b2
     restart: on-failure
     stop_grace_period: 1m
     environment:
