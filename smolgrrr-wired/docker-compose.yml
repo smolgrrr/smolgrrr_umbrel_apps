@@ -11,6 +11,8 @@ services:
     image: smolgrrr/tao:v0.1.2@sha256:0fb03196accbd6af1a5a21a68d7a813a4393893ca33104fe4680ccce828a2b90
     restart: on-failure
     stop_grace_period: 1m
+    environment:
+      - REACT_APP_POWSERVER=http://$DEVICE_DOMAIN_NAME:42068
   
   server:
     image: smolgrrr/tao-pow-server:v0.1.1@sha256:203b079c01714168f458e66d543e2a4984be5a1860082d0bf0d69881010775a6
