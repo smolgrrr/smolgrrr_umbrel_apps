@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: smolgrrr-nsfwapi
+category: social
+name: NSFWAPI
+icon: https://www.getwired.app/icon.png
+version: "0.1.2"
+tagline: NSFW API
+description: >-
+  NSFW API
+
+developer: smolgrrr
+website: https://getwired.app/
+dependencies: []
+repo: https://github.com/smolgrrr/Wired
+support: https://github.com/smolgrrr/Wired/issues
+port: 8081
+gallery:
+  - https://i.imgur.com/4tHfrR4.png
+  - https://i.imgur.com/niMQlU1.png
+  - https://i.imgur.com/Ve4S0zi.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+

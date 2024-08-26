@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: smolgrrr-nsfwapi_server_1
+      APP_PORT: 8081
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    image: ghcr.io/atrifat/nsfw-detector-api:v1.4.0@sha256:74f48334a5788e493a1476ee911e3e787574a71d1fc9e7b21bcee28ec6cb0949
+    restart: on-failure
+    stop_grace_period: 1m
